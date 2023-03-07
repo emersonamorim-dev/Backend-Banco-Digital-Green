@@ -6,7 +6,7 @@ Utilizando o framework ASP.NET Core 6.0. O ASP.NET Core é um framework open-sou
 que permite a criação de aplicações multiplataforma para Windows, macOS e Linux. Ele é modular, possui uma arquitetura de middleware 
 e é altamente escalável e performático.
 
-A aplicação utiliza o banco de dados NoSQL MongoDB como armazenamento de dados. O MongoDB é um banco de dados orientado a documentos, 
+A aplicação utilizei o banco de dados NoSQL MongoDB como armazenamento de dados. O MongoDB é um banco de dados orientado a documentos, 
 que utiliza um modelo de dados flexível e escalável horizontalmente.
 
 Além disso, a aplicação faz uso do Apache Kafka, um sistema de mensagens distribuído que permite a comunicação assíncrona entre diferentes 
