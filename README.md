@@ -18,51 +18,49 @@ Também é utilizado o Docker para empacotar e distribuir a aplicação em um am
 e consistente.
 
 ### Abaixo acessos os Endpoints da Aplicação
-Controllers
-AcoesController
-**Responsável pelas operações relacionadas a ações de ativos digitais, como compra e venda.**
 
-GET api/acoes: Retorna todas as ações disponíveis para compra.
-GET api/acoes/{id}: Retorna uma ação específica pelo seu ID.
-POST api/acoes: Permite a compra de uma ação, criando uma nova transação.
-PUT api/acoes/{id}: Atualiza o preço de uma ação específica pelo seu ID.
-DELETE api/acoes/{id}: Remove uma ação específica pelo seu ID.
-AtivoDigitalController
+**AcoesController Responsável pelas operações relacionadas a ações de ativos digitais, como compra e venda.**
 
-**Responsável por gerenciar os ativos digitais disponíveis para negociação.**
+- GET api/acoes: Retorna todas as ações disponíveis para compra.
+- GET api/acoes/{id}: Retorna uma ação específica pelo seu ID.
+- POST api/acoes: Permite a compra de uma ação, criando uma nova transação.
+- PUT api/acoes/{id}: Atualiza o preço de uma ação específica pelo seu ID.
+- DELETE api/acoes/{id}: Remove uma ação específica pelo seu ID.
 
-GET api/ativosdigitais: Retorna todos os ativos digitais disponíveis para negociação.
-GET api/ativosdigitais/{id}: Retorna um ativo digital específico pelo seu ID.
-POST api/ativosdigitais: Cria um novo ativo digital.
-PUT api/ativosdigitais/{id}: Atualiza um ativo digital específico pelo seu ID.
-DELETE api/ativosdigitais/{id}: Remove um ativo digital específico pelo seu ID.
+**AtivoDigitalController Responsável por gerenciar os ativos digitais disponíveis para negociação.**
+
+- GET api/ativosdigitais: Retorna todos os ativos digitais disponíveis para negociação.
+- GET api/ativosdigitais/{id}: Retorna um ativo digital específico pelo seu ID.
+- POST api/ativosdigitais: Cria um novo ativo digital.
+- PUT api/ativosdigitais/{id}: Atualiza um ativo digital específico pelo seu ID.
+- DELETE api/ativosdigitais/{id}: Remove um ativo digital específico pelo seu ID.
 
 **PagamentoController Responsável pelas operações de pagamento, como criação de cartões de crédito e pagamento de faturas.**
 
-GET api/pagamento/cartoescredito: Retorna todos os cartões de crédito cadastrados.
-GET api/pagamento/cartoescredito/{id}: Retorna um cartão de crédito específico pelo seu ID.
-POST api/pagamento/cartoescredito: Cria um novo cartão de crédito.
-PUT api/pagamento/cartoescredito/{id}: Atualiza um cartão de crédito específico pelo seu ID.
-DELETE api/pagamento/cartoescredito/{id}: Remove um cartão de crédito específico pelo seu ID.
-POST api/pagamento/pagarfatura: Realiza o pagamento de uma fatura.
+- GET api/pagamento/cartoescredito: Retorna todos os cartões de crédito cadastrados.
+- GET api/pagamento/cartoescredito/{id}: Retorna um cartão de crédito específico pelo seu ID.
+- POST api/pagamento/cartoescredito: Cria um novo cartão de crédito.
+- PUT api/pagamento/cartoescredito/{id}: Atualiza um cartão de crédito específico pelo seu ID.
+- DELETE api/pagamento/cartoescredito/{id}: Remove um cartão de crédito específico pelo seu ID.
+- POST api/pagamento/pagarfatura: Realiza o pagamento de uma fatura.
 
 **TransacaoController Responsável pelas operações de transações, como criação e consulta.**
 
 
-GET api/transacao: Retorna todas as transações realizadas.
-GET api/transacao/{id}: Retorna uma transação específica pelo seu ID.
-POST api/transacao: Cria uma nova transação.
-DELETE api/transacao/{id}: Remove uma transação específica pelo seu ID.
+- GET api/transacao: Retorna todas as transações realizadas.
+- GET api/transacao/{id}: Retorna uma transação específica pelo seu ID.
+- POST api/transacao: Cria uma nova transação.
+- DELETE api/transacao/{id}: Remove uma transação específica pelo seu ID.
 
 **TransferenciaController Responsável pelas operações de transferência entre contas.**
 
-GET api/transferencia: Retorna todas as transferências realizadas.
-GET api/transferencia/{id}: Retorna uma transferência específica pelo seu ID.
-POST api/transferencia: Cria uma nova transferência.
-DELETE api/transferencia/{id}: Remove uma transferência específica pelo seu ID.
+- GET api/transferencia: Retorna todas as transferências realizadas.
+- GET api/transferencia/{id}: Retorna uma transferência específica pelo seu ID.
+- POST api/transferencia: Cria uma nova transferência.
+- DELETE api/transferencia/{id}: Remove uma transferência específica pelo seu ID.
 
 **UsuarioController Responsável pelas operações de usuários, como criação, consulta e autenticação.**
 
-GET api/usuario: Retorna todos os usuários cadastrados.
-GET api/usuario/{id}: Retorna um usuário específico pelo seu ID.
-POST api/usuario: Cria um novo usuário.
+- GET api/usuario: Retorna todos os usuários cadastrados.
+- GET api/usuario/{id}: Retorna um usuário específico pelo seu ID.
+- POST api/usuario: Cria um novo usuário.
